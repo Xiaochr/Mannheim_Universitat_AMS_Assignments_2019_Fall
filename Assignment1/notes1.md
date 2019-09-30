@@ -1,4 +1,4 @@
-# Notes 1
+<h1 id = "1">Notes 1</h1>
 
 - Inner Product: &nbsp; `%*%`
 - Outer Product: &nbsp; `%o%`
@@ -7,11 +7,11 @@
 - Styles: 
     - pch
     
-    ![pch](pch.png)
+    ![pch](pic/pch.png)
 
     - lty
 
-    ![lty](lty.png)
+    ![lty](pic/lty.png)
 
     - cex: the size of text. default 1. 
     - col: color. 
@@ -23,3 +23,5 @@
 - **Orthogonal Projection**
     - y's orthogonal projection on x. x is a matrix, y is a vector. 
     - `x %*% solve(t(x) %*% x) %*% t(x) %*% y`
+
+[Back to Top](#1)
