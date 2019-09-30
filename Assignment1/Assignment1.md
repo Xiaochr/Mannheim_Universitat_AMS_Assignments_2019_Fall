@@ -60,7 +60,9 @@ draw_vectors = function(X1, Y1, X2, Y2) {
     y2 = Y2
     v1 = c(x1, y1)
     v2 = c(x2, y2)
-    plot(x, y, xlim = c(0, 4), ylim = c(-0.2, 1.2), type = "n", axes = FALSE, frame.plot = FALSE, ann = FALSE, asp = 1)
+    plot(x, y, xlim = c(0, 4), ylim = c(-0.2, 1.2),
+         axes = FALSE, frame.plot = FALSE, ann = FALSE,
+         type = "n", asp = 1)
     arrows(x, y, x1, y1, length = 0.1, col = "blue")
     text(x1 + 0.1, y1 + 0.1, labels = "x")
 
