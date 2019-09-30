@@ -1,4 +1,4 @@
-<h1 id = "1">Notes 1</h1>
+<h1 id = "0">Notes 1</h1>
 
 - Inner Product: &nbsp; `%*%`
 - Outer Product: &nbsp; `%o%`
@@ -24,4 +24,4 @@
     - y's orthogonal projection on x. x is a matrix, y is a vector. 
     - `x %*% solve(t(x) %*% x) %*% t(x) %*% y`
 
-[Back to Top](#1)
+[Back to Top](#0)

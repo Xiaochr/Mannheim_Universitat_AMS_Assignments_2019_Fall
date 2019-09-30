@@ -1,4 +1,4 @@
-<h1 id = "1">Assignment 2</h1>
+<h1 id = "0">Assignment 2</h1>
 
 ## contents
 - [Exercise 3](#3)
@@ -117,4 +117,4 @@ print(f(1) + f(2) + f(3))
 print(e %*% sqrt(a) %*% t(e))
 ```
 
-[Back to top](#1)
+[Back to top](#0)

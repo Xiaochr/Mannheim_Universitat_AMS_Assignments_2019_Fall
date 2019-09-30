@@ -1,6 +1,13 @@
-# Assigment 1
+<h1 id = "0">Assigment 1</h1>
 
-## Exercise 1
+- [Exercise 1](#1)
+- [Exercise 3](#3)
+- [Exercise 4](#4)
+- [Exercise 5](#5)
+- [Exercise 6](#6)
+
+
+<h2 id = "1">Exercise 1</h2>
 
 ```
 x1 = c(1, 4, 1, 3, 2, -6)
@@ -49,7 +56,8 @@ print(((x2 %*% x1) / (x2 %*% x2)) * x2)
 print(((x3 %*% x1) / (x3 %*% x3)) * x3)
 ```
 
-## Exercise 3
+<h2 id = "3">Exercise 3</h2>
+
 ```
 draw_vectors = function(X1, Y1, X2, Y2) {
     x = 0
@@ -78,7 +86,8 @@ draw_vectors(2, 1, 3, 0)
 draw_vectors(2, 1, 3, 1)
 ```
 
-## Exercise 4
+<h2 id = "4">Exercise 4</h2>
+
 ```
 m1 = matrix(c(3, 2, 1, 0, 2, 1, -1, 4, 3), 3, 3)
 m2 = matrix(c(1, 5, 2, 1, -1, 3), 2, 3)
@@ -120,7 +129,8 @@ print(m2 %*% t(m2))
 ```
 
 
-## Exercise 5
+<h2 id = "5">Exercise 5</h2>
+
 ```
 A = matrix(c(2, 1, 3, 4, 3, 8, -2, 2, 0, -4, 5, 1, -1, 3, 4, 1), 4, 4)
 ```
@@ -138,9 +148,12 @@ print(det(t(m2) %*% m2))
 print(round(solve(A), digits = 4))
 ```
 
-## Exercise 6
+<h2 id = "6">Exercise 6</h2>
+
 ```
 x = matrix(c(1, 0, 0, 0, 0, 1), 3, 2)
 y = c(1, 3, 2)
 print(x %*% solve(t(x) %*% x) %*% t(x) %*% y)
 ```
+
+[Back to Top](#0)
