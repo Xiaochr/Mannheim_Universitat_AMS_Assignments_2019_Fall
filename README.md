@@ -19,6 +19,17 @@ By the way, if you are from **Tsinghua SEM** and plan to exchange in **the Unive
 ## Contents
 
 - [Assignment 1](Assignment1/Assignment1.md)
+    - [Notes 1](Assignment1/notes1.md)
+    - [R codes](Assignment1/R_Assignment1.pdf)
+
 - [Assignment 2](Assignment2/Assignment2.md)
+    - [Notes 2](Assignment2/notes2.md)
+    - [R codes](Assignment2/R_Assignment2.pdf)
+
 - [Assignment 3](Assignment3/Assignment3.md)
+    - [Notes 3](Assignment3/notes3.md)
+    - [R codes](Assignment3/Assignment3_R.pdf)
+
 - [Assignment 4](Assignment4/Assignment4.md)
+    - [Notes 4](Assignment4/notes4.md)
+    - [R codes](Assignment4/Assignment4_R.pdf)

@@ -1,3 +1,5 @@
+[Back to menu](/README.md)
+
 <h1 id = "0">Notes 3</h1>
 
 - For multivariate normal distributions: 
