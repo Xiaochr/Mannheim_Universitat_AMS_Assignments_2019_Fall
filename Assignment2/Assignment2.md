@@ -1,3 +1,5 @@
+[Back to menu](/README.md)
+
 <h1 id = "0">Assignment 2</h1>
 
 ## contents
