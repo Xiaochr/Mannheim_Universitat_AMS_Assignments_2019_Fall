@@ -15,3 +15,10 @@ Due to the restriction, I'm forbidden to post any materials of this course to th
 Of course, without the assignment questions, people who see these codes will be confused. However, just as I mentioned, my primary purpose is doing this for myself. If someone is benefited from my codes, I will be glad; If not, it's no harm to me anyway. 
 
 By the way, if you are from **Tsinghua SEM** and plan to exchange in **the University of Mannheim**, I highly recommend you to take this wonderful course, the contents and instructor are both really nice. You can experience this course by going through this repository, and welcome to contact me if you have further questions! 
+
+## Contents
+
+- [Assignment 1](Assignment1/Assignment1.md)
+- [Assignment 2](Assignment2/Assignment2.md)
+- [Assignment 3](Assignment3/Assignment3.md)
+- [Assignment 4](Assignment4/Assignment4.md)
