@@ -36,3 +36,5 @@ By the way, if you are from **Tsinghua SEM** and plan to exchange in **the Unive
 
 - [Assignment 5](Assignment5/Assignment5.md)
     - [R codes](Assignment5/Assignment5_R.pdf)
+
+- [Assignment 6](Assignment6/Assignment6.md)
