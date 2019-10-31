@@ -48,4 +48,6 @@ get_A = function(i) {
 sum((get_A(1) - X_s) ^ 2)
 ```
 
+---
+
 [Back to Top](#0)
