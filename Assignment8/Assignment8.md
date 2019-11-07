@@ -2,6 +2,12 @@
 
 <h1 id = "0">Assignment 8</h1>
 
+## Contents
+
+- [Exercise 2](#2)
+- [Exercise 3](#3)
+- [Exercise 4](#4)
+
 <h2 id = "2">Exercise 2</h2>
 
 ```
@@ -158,7 +164,7 @@ print(Preferences$Name[order(dis_con_full)])
 print(Preferences$Name[order(dis_ind_full)])
 ```
 
-<h2 id = "3">Exercise 3</h2>
+<h2 id = "4">Exercise 4</h2>
 
 ### a
 ```
