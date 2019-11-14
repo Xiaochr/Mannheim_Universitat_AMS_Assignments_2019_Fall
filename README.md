@@ -45,3 +45,6 @@ By the way, if you are from **Tsinghua SEM** and plan to exchange in **the Unive
 
 - [Assignment 8](Assignment8/Assignment8.md)
     - [Notes 8](Assignment8/notes8.md)
+
+- [Assignment 9](Assignment9/Assignment9.md)
+    - [Notes 9](Assignment9/notes9.md)

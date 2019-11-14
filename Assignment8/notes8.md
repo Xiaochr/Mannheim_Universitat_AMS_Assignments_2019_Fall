@@ -41,11 +41,6 @@ conformist=ifelse(Xbar>=0,1,-1)-Xbar
 individualist=ifelse(Xbar>0,-1,1)-Xbar
 ```
 
-
-
-
-
-
 ---
 
 [Back to Top](#0)
