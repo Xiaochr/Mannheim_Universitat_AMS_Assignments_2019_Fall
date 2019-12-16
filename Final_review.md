@@ -21,7 +21,7 @@
 
 - Orthogonal Projection: 
     - $x_1$ on $x_2$: $\hat{y}_{x}=\frac{x^{T} y}{x^{T} x} x$
-    - $X$ on $Y$: $\hat{\mathbf{y}}_{\mathbf{x}}=\mathbf{X}\left(\mathbf{X}^{T} \mathbf{X}\right)^{-1} \mathbf{X}^{T} \mathbf{y}$
+    - $X$ on $Y$: $\hat{\mathbf{y}}_{\mathbf{x}}=\mathbf{X}(\mathbf{X}^{T} \mathbf{X})^{-1} \mathbf{X}^{T} \mathbf{y}$
 
 ```
 ((x2 %*% x1) / (x2 %*% x2)) * x2
@@ -29,7 +29,7 @@ x %*% solve(t(x) %*% x) %*% t(x) %*% y
 ```
 
 - Multinormal distribution:
-    - $f\left(x_{1}, x_{2}, \ldots, x_{p}\right)=\frac{1}{(2 \pi)^{p / 2} | \boldsymbol{\Sigma}^{1 / 2}} \exp \left(-0.5 \cdot(\mathbf{x}-\boldsymbol{\mu})^{T} \boldsymbol{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu})\right)$
+    - $f(x_{1}, x_{2}, \ldots, x_{p})=\frac{1}{(2 \pi)^{p / 2} | \boldsymbol{\Sigma}^{1 / 2}} \exp (-0.5 \cdot(\mathbf{x}-\boldsymbol{\mu})^{T} \boldsymbol{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu}))$
 
 ```
 f = function(x) {
@@ -38,7 +38,7 @@ f = function(x) {
 ```
 
 - Bivariate distribution: 
-    - $f\left(x_{1}, x_{2}\right)=\frac{1}{2 \pi \sqrt{\sigma_{11} \sigma_{22}} \sqrt{1-\rho_{12}^{2}}}\times \exp \left\{-\frac{1}{2\left(1-\rho_{12}^{2}\right)}\left[\frac{\left(x_{1}-\mu_{1}\right)^{2}}{\sigma_{11}}-2 \rho_{12}\left(\frac{x_{1}-\mu_{1}}{\sqrt{\sigma_{11}}}\right)\left(\frac{x_{2}-\mu_{2}}{\sqrt{\sigma_{22}}}\right)+\frac{\left(x_{2}-\mu_{2}\right)^{2}}{\sigma_{22}}\right]\right\}$
+    - $f(x_{1}, x_{2})=\frac{1}{2 \pi \sqrt{\sigma_{11} \sigma_{22}} \sqrt{1-\rho_{12}^{2}}}\times \exp \{-\frac{1}{2(1-\rho_{12}^{2})}[\frac{(x_{1}-\mu_{1})^{2}}{\sigma_{11}}-2 \rho_{12}(\frac{x_{1}-\mu_{1}}{\sqrt{\sigma_{11}}})(\frac{x_{2}-\mu_{2}}{\sqrt{\sigma_{22}}})+\frac{(x_{2}-\mu_{2})^{2}}{\sigma_{22}}]\}$
 
 ```
 bivariate_normal = function(x1, x2) {
@@ -50,7 +50,7 @@ bivariate_normal = function(x1, x2) {
 
 - Approximating matrix and approximation error
     - $\hat{\mathbf{A}}=\mathbf{X} \mathbf{E}_{r} \mathbf{E}_{r}^{T}$
-    - $A E=(n-1)\left(\hat{\lambda}_{r+1}+\hat{\lambda}_{r+2}+\ldots+\hat{\lambda}_{p}\right)$
+    - $A E=(n-1)(\hat{\lambda}_{r+1}+\hat{\lambda}_{r+2}+\ldots+\hat{\lambda}_{p})$
 
 ```
 get_A = function(i) {
